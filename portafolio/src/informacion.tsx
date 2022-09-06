@@ -1,3 +1,4 @@
+
 // Language: typescript
 // @ mitre 2022
 
@@ -14,8 +15,8 @@ body.style.backgroundColor='#EAE509';
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <Header />
-    <Body />
+    
     <Footer />
-    <Carousel />
+
   </React.StrictMode>
 );
