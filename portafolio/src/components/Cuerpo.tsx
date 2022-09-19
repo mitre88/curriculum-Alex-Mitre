@@ -2,7 +2,7 @@
 // @ mitre 2022
 
 const style: any = {
-  color: "#2A0944",
+  color: "blue",
   padding: ".8rem",
   position: "fixed",
   fontSize: "19px",
@@ -13,8 +13,8 @@ export const Body = () => {
   return (
     <div style={style}>
       <div>
-        <div className="body__container__item">
-          <h4 style={{ color: "black" }}>Portafolio al { 
+        <div >
+          <h4 style={{ color: "black" , marginLeft: "70px" }}>Portafolio al { 
             Date().trimEnd().split(" ")[2] + " de " + Date().trimEnd().split(" ")[1] + " de " + Date().trimEnd().split(" ")[3]} :
           </h4>
           <a
@@ -22,75 +22,53 @@ export const Body = () => {
             style={{
               color: "blue",
               fontSize: "20px",
-
+              marginLeft: "38px",
               textDecoration: "none",
               padding: "2rem",
             }}
           >
             Contactame también por correo electrónico
           </a>
-          <p style={{ padding: ".5rem" }}>
-            Este es mi portafolio, en el cual encontraras
-            <strong style={{ color: "red" }}>
-              {" "}
-              mis proyectos y mi información personal :{" "}
-            </strong>
-          </p>
         </div>
+        <br></br>
         <div>
-          <h4 style={{ color: "#2A0944" }}>
-            <a href="./proyectos.html" target="_blank">
-                Proyectos
-            </a>
-            </h4>
-          <p style={{ padding: ".5rem" }}>
-            En esta sección encontraras todos
-            <strong style={{ color: "red" }}> mis proyectos</strong>, los
-            cuales son de diferentes categorías
-          </p>
-        </div>
-        <div>
-          <h4 style={{ color: "#2A0944" }}>
-            <a href="./informacion.html" target="_blank">
-            Información
-            </a>
-            </h4>
-          <p style={{ padding: ".5rem" }}>
-            En esta sección encontraras mi{" "}
-            <strong style={{ color: "red" }}>información personal</strong>,
-            como mi correo, mi número de teléfono, mi edad y mi ubicación
-          </p>
-          <ul>
             <li>
               <a href="https://mx.linkedin.com/in/alejandro-hernandez-mitre-7809a3153?trk=people-guest_people_search-card">
                 Pefil de Linkedin
               </a>{" "}
             </li>
+            <br></br>
             <li>
               <a href="https://www.itsx.edu.mx/">
-                Ingeniero en Sistemas Computacionales
+                Ingeniero en Sistemas Computacionales Instituto Tecnológico Superior de Xalapa
               </a>
             </li>
+            <br></br>
+
             <li>
-              <a href="https://upn.mx/">Licenciado en Educación</a>
+              <a href="https://upn.mx/">Licenciado en Educación Universidad Pedagógica Nacional</a>
             </li>
+            <br></br>
+
             <li>
               <a href="https://upn.mx/">
                 Maestría en Educación con especialidad en{" "}
-                <strong style={{ color: "red" }}>
+                <strong style={{ color: "#EE6983  " }}>
                   Innovación y Tecnologías
-                </strong>
+                </strong> Universidad Pedagógica Nacional
               </a>
             </li>
+            <br></br>
+
             <li>
               <a href="https://centroausubel.edu.mx/">
                 Doctorado en Educación{" "}
-                <strong style={{ color: "red" }}>
+                <strong style={{ color: "#EE6983  " }}>
                   especializado en innovación educativa
-                </strong>
+                </strong> Centro de Estudios Especializados Ausubel
               </a>
             </li>
-          </ul>
+        
         </div>
       </div>
     </div>
